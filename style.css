@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&family=Roboto&family=Sevillana&display=swap');
+html {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(194, 210, 26);
+  }
+  .button{
+    background-color: blanchedalmond;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 80px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  .button:hover{
+    background-color: rgb(247, 186, 186);
+  }
+  .button:active {
+    transform: translateY(4px);
+  }
+  .row{
+    margin: 8px 0;
+  }
+  .row input{
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  @media screen and (max-width: 800px) {
+    .button{
+      background-color: blanchedalmond;
+      padding: 10px;
+      margin: 0 3px;
+      font-size: 10px;
+      width: 40px;
+      border: 1px solid black;
+      border-radius: 5px;
+    }
+    .row input{
+      font-size: 10px;
+      margin: 0;
+      padding: 10px 5px;
+      border: 1px solid black;
+      border-radius: 3px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      width: 160px;
+    }
+  }
